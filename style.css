@@ -1,0 +1,107 @@
+body{
+    background-image: url('http://massivegalaxy.com/img/titlescreen2x.gif');
+    background-size: 100vw 100vh; 
+    background-repeat: no-repeat;
+}
+.main{
+   color:greenyellow;
+   margin: 0;
+   text-align: center;
+   align-content: center;
+   font-family: "Impact", sans-serif;
+   font-style: italic;
+   font-variant: small-caps;
+}
+
+.main2{
+    font-size: 30px;
+    text-align: center;
+    color:greenyellow;
+    margin: 0;
+}
+#tic{
+    font-size: 40px; 
+    margin-top:40px;
+}
+.head1{
+    font-size: 100px;
+    margin-top:10px;
+}
+
+
+a{
+    font-size: 40px;
+    color: greenyellow;
+    text-decoration: none;
+    border-style: inset;
+    border-width: 8px;
+}
+
+
+.square{
+    width: 100px;
+    height: 80px;
+    border: 1px solid rgb(138,43,226);
+    display: inline-block;
+    text-align: center;
+    border-collapse: collapse;
+    padding-top: 30px;
+    font-size: 60px;
+    float: left;
+
+}
+.board{
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top : 50px;
+    
+
+}
+.score{
+    font-size: 20px;
+    margin-left: 100px;
+    margin: auto 0;
+}
+#rocket{
+    height: 100px;
+    position: fixed;
+    bottom: 67%;
+    size: 10px;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.square:hover{
+    background-color: rgba(138,43,226,.5);
+}
+
+#playersVS{
+    color: deeppink;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 30px;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 160px;
+    
+
+}
+input {
+    margin-bottom: 50px;
+}
+
+/* #text1{
+    align-items: center;
+ }
+#text2{
+    align-content: center;
+    padding-bottom: 10px;
+} */
+
